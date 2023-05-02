@@ -37,9 +37,15 @@ ul {
     list-style: none;
 }
 #hero {
-    background-image:url(../img/hero.jpg);
+    background-image:url(../img/nissan.jpg);
     height: 350px;
+    padding: 50px;
+    background-size: auto;
+    display: flex;
+    flex-direction:row-reverse;
+    background-repeat: no-repeat;
     background-size: cover;
+    
 }
 #encabezado {
     margin: 30px 0;
@@ -73,6 +79,7 @@ ul {
 .contenido-hero {
     margin-top: 80px;
     color: white;
+    -webkit-text-stroke: 0.4px rgb(0, 0, 0);
 }
 .contenido-hero form {
     position: relative;
@@ -101,10 +108,10 @@ ul {
 .barra {
     padding: 20px 0;
     background: #741d51; /* Old browsers */
-    background: -moz-linear-gradient(left, #741d51 0%, #e44e52 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #741d51 0%,#e44e52 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #741d51 0%,#e44e52 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#741d51', endColorstr='#e44e52',GradientType=1 ); /* IE6-9 */
+    background: -moz-linear-gradient(left, #5970a0 0%, #212a3e 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #5970a0 0%,#212a3e 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #5970a0 0%,#212a3e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#212a3e', endColorstr='#5970a0',GradientType=1 ); /* IE6-9 */
 }
 
 .barra p {
@@ -124,16 +131,6 @@ ul {
         margin-bottom:0;
     }
 }
-.icono1 {
-    background-image: url(../img/icono1.png);
-}
-.icono2 {
-    background-image: url(../img/icono2.png);
-}
-.icono3 {
-    background-image: url(../img/icono3.png);
-}
-
 #lista-cursos .row {
     margin-bottom:20px;
 }
