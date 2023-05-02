@@ -173,10 +173,25 @@ ul {
 .footer {
     margin-top: 40px;
     border-top:1px solid #aaa;;
-    padding-top: 40px;   
+    padding-top: 40px; 
+    text-align: center;
+    background: #1d1717;
 }
 .footer .menu a{
 display: block;
 margin-bottom: 10px;
 text-decoration: none;
 }
+.footer .redes a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    padding-top: 6px;
+}
+
+.copi{
+    color: #1eaedb;
+
+}
+
+
